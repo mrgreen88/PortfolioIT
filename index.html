@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+   <title>PortfolioIT</title>
+</head>
+
+<body>
+
+
+   <!-- Navbar -->
+
+   <header>
+      <nav class="navbar" id="navbar">
+         <div class="container">
+            <div class="logo">
+               <a href="/">IT <span>portfolio</span></a>
+            </div>
+
+            <ul class="menu" id="nav__menu">
+               <li><a href="#" data-scroll="#home">Home</a></li>
+               <li><a href="#" data-scroll="#about">About</a></li>
+               <li><a href="#" data-scroll="#services">Services</a></li>
+               <li><a href="#" data-scroll="#skills">Skills</a></li>
+               <li><a href="#" data-scroll="#works">Works</a></li>
+               <li><a href="#" data-scroll="#contact">Contact</a></li>
+            </ul>
+
+            <button class="burger" id="open-menu-btn">
+               <i class="fa-solid fa-bars"></i>
+            </button>
+            <button class="burger" id="close-menu-btn">
+               <i class="fa-solid fa-xmark"></i>
+            </button>
+
+         </div>
+      </nav>
+   </header>
+
+   <!-- Main -->
+
+   <main>
+
+      <!-- Home section -->
+
+      <section id="home">
+         <div class="container">
+            <div class="home-content">
+               <div class="text-1">Hello, I'm</div>
+               <h1 class="text-2">Ivan Taetu</h1>
+               <div class="text-3">and I'm <span class="typing"></span> Developer</div>
+               <div class="social">
+                  <a class="social-link" href="https://www.facebook.com/" target="_blank">
+                     <img src="img/facebook.svg" alt="facebook" width="40">
+                  </a>
+                  <a class="social-link" href="https://www.linkedin.com/" target="_blank">
+                     <img src="img/in.svg" alt="linkedin" width="40">
+                  </a>
+                  <a class="social-link" href="https://www.instagram.com/" target="_blank">
+                     <img src="img/instagram.svg" alt="instagram" width="40">
+                  </a>
+                  <a class="social-link" href="https://twitter.com/" target="_blank">
+                     <img src="img/twitterX.svg" alt="twitter" width="40">
+                  </a>
+
+               </div>
+               <a class="btn btn-download" href="#" data-modal="#modal_resume">See my resume</a>
+            </div>
+         </div>
+      </section>
+
+      <!-- About -->
+
+      <section id="about">
+         <div class="container reveal">
+            <div class="about-content">
+               <h2>About me</h2>
+               <h3 class="line">ho am I</h3>
+               <div class="about-description">
+                  <div class="description-left">
+                     <img src="img/AdobeStock_549681355.webp" alt="">
+                  </div>
+                  <div class="description-right">
+                     <h4>I am Ivan, and I am a <span class="typing2"></span></h4>
+                     <p>I am a person who wants to re-profile myself in the IT field, and I started with the creation
+                        and development of websites.</p>
+                     <p>This year I finished the Faculty of Electronics and Telecommunications of the UTM university,
+                        specializing in Software and Telecommunications Networks with a reduced frequency program.</p>
+                     <p>For more than 5 years, I have been working as a ticketing agent in the biggest tickets sales
+                        agency in Moldova. I am a dynamic, sociable person, easily adaptable to working conditions, I
+                        have the ability to work on weekends and overtime, to learn new things and easily create new
+                        professional skills.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Services -->
+
+      <section id="services">
+         <div class="container reveal">
+            <div class="about-content">
+               <h2>Services</h2>
+               <h3 class="line line-white">what I do</h3>
+               <div class="card-container">
+
+                  <article class="card-article">
+                     <img class="card-img first" src="/img/webp5.webp" alt="card">
+                     <div class="card-data">
+                        <h4 class="card-title">web design</h4>
+                        <p class="card-description">
+                           Web designing is the process of planning, conceptualizing, and implementing the plan for
+                           designing a website in a way that is functional and offers a good user experience.
+                        </p>
+                     </div>
+                  </article>
+
+                  <article class="card-article">
+                     <img class="card-img" src="/img/webp3.webp" alt="card">
+                     <div class="card-data">
+                        <h4 class="card-title">web development</h4>
+                        <p class="card-description">
+                           Web development is the work involved in developing a website for the Internet (World Wide
+                           Web) or an intranet (a private network).
+                        </p>
+                     </div>
+                  </article>
+
+                  <article class="card-article">
+                     <img class="card-img last" src="/img/webp2.webp" alt="card">
+                     <div class="card-data">
+                        <h4 class="card-title">app development</h4>
+                        <p class="card-description">
+                           Mobile application development is the process of making software for smartphones, tablets and
+                           digital assistants, most commonly for the Android and iOS.
+                        </p>
+                     </div>
+                  </article>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Skills -->
+
+      <section id="skills">
+         <div class="container reveal">
+            <div class="skills-content">
+               <h2>Skills</h2>
+               <h3 class="line">my skills</h3>
+
+               <div class="skills-text">
+
+                  <div class="skills-left">
+                     <h4>My skills and experience</h4>
+                     <h5>July 2018 - present - <span class="typing1"></span></h5>
+                     <p>Name and address of employer - <span>"Explor TUR" S.R.L, 31 August 1989 St 64</span>
+                     </p>
+                     <p>Activities and responsabilities - <span>Data processing manager, ticketing agent in reservation systems: Galileo, Amadeus, Sirena Travel, Gabriel, SPRK, Smart
+                           Ticketing, SkySpeed, Radixx.</span></p>
+                     <a class="btn btn-more" href="#" data-modal="#modal_resume">See my resume</a>
+                  </div>
+
+                  <div class="skills-right">
+
+                     <div class="skills-box">
+                        <span class="skill-title">HTML5</span>
+                        <div class="skill-bar">
+                           <span class="skill-per html">
+                              <span class="tooltip">80%</span>
+                           </span>
+                        </div>
+                     </div>
+
+                     <div class="skills-box">
+                        <span class="skill-title">CSS3</span>
+                        <div class="skill-bar">
+                           <span class="skill-per css">
+                              <span class="tooltip">85%</span>
+                           </span>
+                        </div>
+                     </div>
+
+                     <div class="skills-box">
+                        <span class="skill-title">JavaScript</span>
+                        <div class="skill-bar">
+                           <span class="skill-per js">
+                              <span class="tooltip">40%</span>
+                           </span>
+                        </div>
+                     </div>
+
+                     <div class="skills-box">
+                        <span class="skill-title">SQL</span>
+                        <div class="skill-bar">
+                           <span class="skill-per sql">
+                              <span class="tooltip">35%</span>
+                           </span>
+                        </div>
+                     </div>
+
+                     <div class="skills-box">
+                        <span class="skill-title">React</span>
+                        <div class="skill-bar">
+                           <span class="skill-per react">
+                              <span class="tooltip">15%</span>
+                           </span>
+                        </div>
+                     </div>
+
+
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Works -->
+
+      <section id="works">
+         <div class="container reveal">
+            <div class="works-content">
+               <h2>Works</h2>
+               <h3 class="line line-white">portfolio</h3>
+
+               <div class="work-links">
+                  <button data-f="all">All</button>
+                  <button data-f="html-css">HTML/CSS</button>
+                  <button data-f="javascript">JavaScript</button>
+                  <button data-f="parallax">Parallax</button>
+                  <button data-f="react">App</button>
+               </div>
+
+               <div class="work-content">
+
+                  <article class="work-item html-css">
+                     <a href="asets/Website-school/index.html" target="_blank">
+                        <img src="img/website-mindresti.webp" alt="school-website">
+                     </a>
+                     <h4>School Website</h4>
+                  </article>
+
+                  <article class="work-item react">
+                     <a href="asets/MusicApp/index.html" target="_blank">
+                        <img src="img/music-app.png" alt="music-app">
+                     </a>
+                     <h4>Music App</h4>
+                  </article>
+
+                  <article class="work-item parallax">
+                     <a href="asets/ParalaxWebsite/ready-html/index.html" target="_blank">
+                        <img src="./img/parallax.png" alt="paralax">
+                     </a>
+                     <h4>Parallax Effect</h4>
+                  </article>
+
+                  <article class="work-item html-css">
+                     <a href="asets/FlexBox-homework/index.html" target="_blank">
+                        <img src="img/flexbox-homework.png" alt="roledice">
+                     </a>
+                     <h4>Copy Website</h4>
+                  </article>
+
+                  <article class="work-item html-css">
+                     <a href="asets/personal-blog/index.html" target="_blank">
+                        <img src="img/personal-blog.png" alt="flexbox">
+                     </a>
+                     <h4>Personal Blog</h4>
+                  </article>
+
+                  <article class="work-item javascript">
+                     <a href="asets/RolleDice/index.html" target="_blank">
+                        <img src="img/roledice.png" alt="flexbox">
+                     </a>
+                     <h4>Role Dice Game</h4>
+                  </article>
+
+                  <article class="work-item javascript">
+                     <a href="asets/Bankist/index.html" target="_blank">
+                        <img src="img/bankapp.png" alt="bankapp">
+                     </a>
+                     <h4>BankApp</h4>
+                  </article>
+
+                  <article class="work-item javascript">
+                     <a href="asets/CalculatorCafe/index.html" target="_blank">
+                        <img src="img/cafe-calculator.png" alt="cafe">
+                     </a>
+                     <h4>Cafe Calculator</h4>
+                  </article>
+
+                  <article class="work-item html-css">
+                     <a href="asets/Magazin-incaltaminte/incaltaminte.html" target="_blank">
+                        <img src="img/incaltaminte.webp" alt="incaltaminte">
+                     </a>
+                     <h4>Online Shop</h4>
+                  </article>
+
+                  <article class="work-item javascript">
+                     <a href="asets//GuessMyNumber/index.html" target="_blank">
+                        <img src="img/guess-number.png" alt="gues-number">
+                     </a>
+                     <h4>Guess My Number Game</h4>
+                  </article>
+
+                  <article class="work-item html-css">
+                     <a href="asets/Calendar/calendar.html" target="_blank">
+                        <img src="img/calendar.webp" alt="calendar">
+                     </a>
+                     <h4>Calendar</h4>
+                  </article>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Contact -->
+
+      <section id="contact">
+         <div class="container">
+            <div class="contact-inner">
+               <h2>Contact</h2>
+               <h3 class="line">get in touch</h3>
+
+               <div class="contact-content">
+
+                  <div class="contact-left">
+                     <h4>How do you find me</h4>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio id earum, cumque porro
+                        sequi dignissimos quidem eaque impedit ad eum! Aperiam, doloribus ex! Incidunt optio
+                        totam quas rerum, dolorem natus.</p>
+                     <div class="contact-details">
+
+                        <div class="details-item">
+                           <img src="img/user-profile-svgrepo-com.svg" alt="" width="28">
+                           <div class="details-description">
+                              <h5>Full name</h5>
+                              <p>Ivan Taetu</p>
+                           </div>
+                        </div>
+
+                        <div class="details-item">
+                           <img src="img/location-pin-svgrepo-com.svg" alt="" width="28">
+                           <div class="details-description">
+                              <h5>Address</h5>
+                              <p>Chișinău, Republica Moldova</p>
+                           </div>
+                        </div>
+
+                        <div class="details-item">
+                           <img src="img/email-svgrepo-com.svg" alt="" width="28">
+                           <div class="details-description">
+                              <h5>Email</h5>
+                              <a href="mailto:iontaetu88@gmail.com">iontaetu88@gmail.com</a>
+                           </div>
+                        </div>
+
+                        <div class="details-item">
+                           <img src="img/phone-svgrepo-com.svg" alt="" width="30">
+                           <div class="details-description">
+                              <h5>Phone</h5>
+                              <a href="tel:+37378752175">+373 78 752 175</a>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+
+                  <div class="contact-right">
+                     <div class="form" name="submit-to-google-sheet">
+                        <h4>Write me a message</h4>
+                        <div class="name">
+                           <input id="name" type="text" name="name" placeholder="Name" required>
+                           <input id="email" type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="subject">
+                           <input id="subject" type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="text-area">
+                           <textarea id="message" rows="6" name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <button class="btn btn-send" onclick="sendEmail()">Send message</button>
+                        <span id="sendText"></span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      </section>
+
+   </main>
+
+   <!-- Footer -->
+
+   <footer class="footer">
+      <p>Created with</p>
+      <img src="img/heart-svgrepo-com.svg" alt="" width="18">
+      <p>by <span>Ivan Taetu</span></p>
+   </footer>
+
+   <a class="to-top-btn" href="#">
+      <i class="fa-solid fa-chevron-up"></i>
+   </a>
+
+   <div class="modal" id="modal_resume">
+      <div class="modal__dialog">
+
+         <button class="modal__close" type="button" data-close>
+            <img src="img/close-lg-svgrepo-com.svg" width="30" alt="close-button">
+         </button>
+
+         <div class="modal__content">
+            <h2 class="modal__title">Resume</h2>
+            <div class="text-center">
+               <a href="asets/Ion Taetu CV.pdf" download class="btn btn-download btn-modal">Download resume</a>
+            </div>
+         </div>
+
+         <div class="timeline">
+
+            <div class="timeline__col timeline__col-left">
+               <h4 class="timeline__title">Experience</h4>
+
+               <div class="timeline__item">
+                  <div class="timeline__date">July 2018 - <b>Present</b></div>
+                  <h5 class="timeline__subtitle">Online Sales Support Agent</h5>
+                  <div class="timeline__location">
+                     <span>Name and address of employer</span>
+                     <p>"Explor TUR" S.R.L. 31 August 1989 64.</p>
+                  </div>
+                  <div class="timeline__responsibility">
+                     <span>Main activities and responsibilities</span>
+                     <p>Data processing manager, tickets sales in
+                        reservation systems: Galileo, Amadeus, Sirena Travel, Gabriel, SPRK, Smart Ticketing,
+                        SkySpeed,
+                        Radixx.</p>
+                  </div>
+               </div>
+
+               <div class="timeline__item">
+                  <div class="timeline__date">June 2017 - October 2017</div>
+                  <h5 class="timeline__subtitle">Sales Agent</h5>
+                  <div class="timeline__location">
+                     <span>Name and address of employer</span>
+                     <p>"Aeroport Handling" Bd. Dacia 80/3</p>
+                  </div>
+                  <div class="timeline__responsibility">
+                     <span>Main activities and responsibilities</span>
+                     <p>Sale of avia services, ticket sales in reservation systems : Amadeus, Sirena Travel,
+                        Gabriel, Sabre Reservation, Sky Speed, Amadeus Alteea</p>
+                  </div>
+               </div>
+
+            </div>
+
+            <div class="timeline__col timeline__col-right">
+               <h4 class="timeline__title">Education</h4>
+
+               <div class="timeline__item">
+                  <div class="timeline__date">July 2018 - June 2023</div>
+                  <h5 class="timeline__subtitle">Student</h5>
+                  <div class="timeline__location">
+                     <span>Name and address of university</span>
+                     <p class="capitalize">technical university of moldova</p>
+                  </div>
+                  <div class="timeline__responsibility">
+                     <span>Faculty</span>
+                     <p class="capitalize">electronics and telecommunication</p>
+                     <p class="capitalize">specialty of telecommunications software networks</p>
+                  </div>
+               </div>
+
+               <div class="timeline__item">
+                  <div class="timeline__date">January 2023 - April 2023</div>
+                  <h5 class="timeline__subtitle">Courses - Data Analytics</h5>
+                  <div class="timeline__location">
+                     <span>MAIB Academy</span>
+                  </div>
+                  <div class="timeline__responsibility">
+                     <p class="capitalize">SQL, PowerBi, SAP BO, BIG DATA </p>
+                  </div>
+               </div>
+
+               <div class="timeline__item">
+                  <div class="timeline__date">July 2023 - December 2023</div>
+                  <h5 class="timeline__subtitle">Courses - ODC FrontEnd</h5>
+                  <div class="timeline__location">
+                     <span>Orange Digital Center</span>
+                  </div>
+                  <div class="timeline__responsibility">
+                     <p class="capitalize">HTML5, CSS3, JavaScript, React </p>
+                  </div>
+               </div>
+
+            </div>
+
+         </div>
+
+      </div>
+   </div>
+
+
+   <script src="app.js"></script>
+
+</body>
+
+</html>

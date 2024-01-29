@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex Box</title>
+</head>
+
+<body>
+
+    <div class="feedback">
+        <a href="#">site feedback</a>
+    </div>
+
+    <header class="header">
+        <div class="container">
+
+            <div class="header__content">
+                <div class="header__logo">
+                    <img class="img__logo" src="img/UAL.svg" alt="logo">
+                    <h1 class="header__title">united</h1>
+                </div>
+
+                <nav class="nav">
+
+                    <a href="#">
+                        <img src="img/globe-web-svgrepo-com.svg" alt="" width="17">
+                        <p>English - united states</p>
+                        <img src="img/dolar-svgrepo-com (1).svg" alt="" width="15">
+                    </a>
+                    <a href="#">
+                        <img src="img/search-svgrepo-com.svg" alt="" width="20">
+                        <p>Search</p>
+                    </a>
+                    <a href="#">
+                        <img src="img/profile-svgrepo-com.svg" alt="" width="18">
+                        <p class="uppercase">Sign in</p>
+                    </a>
+                    <a class="nav__menu" href="#">
+                        <img src="img/menu-svgrepo-com.svg" alt="" width="28">
+                        <p class="uppercase">Menu</p>
+                    </a>
+
+                </nav>
+
+            </div>
+
+            <div class="form">
+                <div class="form__item">
+                    <input type="text" id="city" placeholder="ATL" name="city">
+                    <label for="city">Atlanta, GA, US</label>
+                </div>
+                <a href="#">
+                    <img src="img/arrow-left-right-svgrepo-com.svg" alt="" width="20">
+                </a>
+                <div class="form__item">
+                    <input type="text" id="city2" placeholder="IAD" name="city2">
+                    <label for="city2">Washington, DC, US</label>
+                </div>
+
+                <div class="calendar">
+                    <p>Sep 29</p>
+                    <img src="img/calendar-svgrepo-com.svg" alt="" width="18">
+                </div>
+
+                <div class="form__item">
+                    <div class="money">
+                        <p href="#">Money</p>
+                        <img src="img/chevron-down-svgrepo-com.svg" alt="" width="28">
+                    </div>
+                    <p class="text__price">Price show in</p>
+                </div>
+
+                <div class="form__item_update">
+                    <a class="btn" href="#">Update</a>
+                    <p>or <span>advanced search</span></p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="filter__section">
+                <article class="filter">
+                    <a href="#">
+                        <p>Sort</p>
+                        <img src="img/down blue.svg" alt="" width="20px">
+                    </a>
+                </article>
+                <article class="filter">
+                    <a href="#">
+                        <p>Stops</p>
+                        <img src="img/down blue.svg" alt="" width="20px">
+                    </a>
+                </article>
+                <article class="filter">
+                    <a href="#">
+                        <p>Fare Type</p>
+                        <img src="img/down blue.svg" alt="" width="20px">
+                    </a>
+                </article>
+                <article class="filter">
+                    <a href="#">
+                        <p>Duration</p>
+                        <img src="img/down blue.svg" alt="" width="20px">
+                    </a>
+                </article>
+                <article class="filter">
+                    <a href="#">
+                        <p>Connections</p>
+                        <img src="img/down blue.svg" alt="" width="20px">
+                    </a>
+                </article>
+                <article class="filter">
+                    <a href="#">
+                        <p>Refundable fares</p>
+                        <img src="img/down blue.svg" alt="" width="20px">
+                    </a>
+                </article>
+                <article class="filter">
+                    <a href="#">
+                        <p>Aircraft</p>
+                        <img src="img/down blue.svg" alt="" width="20px">
+                    </a>
+                </article>
+
+                <article class="filter">
+                    <button class="reset">Reset All</button>
+                </article>
+            </section>
+
+            <section class="info__section">
+                <h2 class="info__section__title">depart on<span>: September 29</span></h2>
+                <article>
+                    <img src="img/info-circle-svgrepo-com.svg" alt="" width="19">
+                    <p>
+                        Fares are for the entire one-way trip, per person.
+                        <a href="#">Additional bag charges may apply. </a>
+                        Fare attributes apply to flights operated by United and United Express®. United flights may be
+                        listed first.
+                    </p>
+                </article>
+            </section>
+
+            <section class="fare-section">
+
+                <article class="fare1">
+                    <div class="fare__basis">
+                        <a href="#">Compare fare types</a>
+                        <img class="img-right" src="img/seat-pictogram-2-svgrepo-com.svg" alt="" width="15">
+                        <a href="#">Show 7-day calendar</a>
+                        <img src="img/calendar-blue.svg" alt="" width="17">
+                    </div>
+                </article>
+
+                <article class="fare2">
+                    <div class="fare__type">
+                        <div class="fare__item fare-first">
+                            <p>basic economy<br><span>(most restrictive)</span></p>
+                            <img src="img/arrow-up-down.svg" alt="" width="15">
+                        </div>
+                        <div class="fare__item fare-second">
+                            <p>economy</p>
+                            <img src="img/arrow-up-down.svg" alt="" width="15">
+                        </div>
+                        <div class="fare__item fare-third">
+                            <p>economy<br><span>(fully refundable)</span></p>
+                            <img src="img/arrow-up-down.svg" alt="" width="15">
+                        </div>
+                        <div class="fare__item fare-fourth">
+                            <p>economy plus<br><span>(extra legroom)</span></p>
+                            <img src="img/arrow-up-down.svg" alt="" width="15">
+                        </div>
+                        <div class="fare__item fare-fifth">
+                            <p>business/first</p>
+                            <img src="img/arrow-up-down.svg" alt="" width="15">
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="fare-section fare-bottom">
+
+                <div class="flight__article">
+                    <div class="flight__info">
+                        <div class="flight__item-info">
+                            <p class="stops">nonstop</p>
+                        </div>
+                        <div class="flight__item-info time">
+                            <p>5:45 am</p>
+                            <p>7:34 am</p>
+                        </div>
+                        <div class="destination">
+                            <p>atl</p>
+                            <div class="destination__item">
+                                <p>1h, <span>49M</span></p>
+                            </div>
+                            <p>iad</p>
+                        </div>
+                        <div class="flight__number">
+                            <p>ua 1599 <span>(airbus a319)</span></p>
+                        </div>
+
+                        <div class="flight__details">
+                            <div class="details">
+                                <div class="details1">
+                                    <img src="img/arrow-down.svg" alt="" width="16">
+                                    <p>details</p>
+                                </div>
+                                <div class="details1">
+                                    <img src="img/arrow-down.svg" alt="" width="16">
+                                    <p>seats</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="details__text">
+                                    <p>230 kg <span>co<sub>2</sub></span></p>
+                                    <img src="img/question-circle-svgrepo-com.svg" alt="" width="20">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flight__select">
+                        <div class="flight__item" data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p>$84</p>
+                            </div>
+                            <div>
+                                <p>united economy</p>
+                                <p>(N)</p>
+                            </div>
+                        </div>
+                        <div class="flight__item"  data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p class="green">$114</p>
+                            </div>
+                            <div>
+                                <p>united economy</p>
+                                <p>(k)</p>
+                            </div>
+                        </div>
+                        <div class="flight__item"  data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p>$144</p>
+                            </div>
+                            <div>
+                                <p>united economy</p>
+                                <p>(k)</p>
+                            </div>
+                        </div>
+                        <div class="flight__item"  data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p>$180</p>
+                            </div>
+                            <div>
+                                <p>united economy</p>
+                                <p>(k)</p>
+                            </div>
+                        </div>
+                        <div class="flight__item"  data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p>$204</p>
+                            </div>
+                            <div>
+                                <p>united first <span>(P)</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="fare-section fare-bottom">
+
+                <div class="flight__article">
+                    <div class="flight__info">
+                        <div class="flight__item-info second">
+                            <p class="second-1">recommended flight
+                                <img src="img/question-circle-svgrepo-com.svg" alt="" width="18">
+                            </p>
+                            <p>nonstop</p>
+                        </div>
+                        <div class="flight__item-info time">
+                            <p>9:28 am</p>
+                            <p>11:17 am</p>
+                        </div>
+                        <div class="destination">
+                            <p>atl</p>
+                            <div class="destination__item">
+                                <p>1h, <span>49M</span></p>
+                            </div>
+                            <p>iad</p>
+                        </div>
+                        <div class="flight__number">
+                            <p>ua 320 <span>(boeing 737-700)</span></p>
+                        </div>
+
+                        <div class="flight__details">
+                            <div class="details">
+                                <div class="details1">
+                                    <img src="img/arrow-down.svg" alt="" width="16">
+                                    <p>details</p>
+                                </div>
+                                <div class="details1">
+                                    <img src="img/arrow-down.svg" alt="" width="16">
+                                    <p>seats</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="details__text">
+                                    <p>111 kg <span>co<sub>2</sub></span></p>
+                                    <img src="img/question-circle-svgrepo-com.svg" alt="" width="20">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flight__select">
+                        <div class="flight__item flight-second-row" data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p>$84</p>
+                            </div>
+                            <div>
+                                <p>united economy</p>
+                                <p>(N)</p>
+                            </div>
+                        </div>
+                        <div class="flight__item flight-second-row" data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p class="green">$114</p>
+                            </div>
+                            <div>
+                                <p>united economy</p>
+                                <p>(k)</p>
+                            </div>
+                        </div>
+                        <div class="flight__item flight-second-row" data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p>$144</p>
+                            </div>
+                            <div>
+                                <p>united economy</p>
+                                <p>(k)</p>
+                            </div>
+                        </div>
+                        <div class="flight__item flight-second-row" data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p>$180</p>
+                            </div>
+                            <div>
+                                <p>united economy</p>
+                                <p>(k)</p>
+                            </div>
+                        </div>
+                        <div class="flight__item flight-second-row" data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p>$204</p>
+                            </div>
+                            <div>
+                                <p>united first <span>(P)</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="fare-section fare-bottom">
+
+                <div class="flight__article">
+                    <div class="flight__info">
+                        <div class="flight__item-info">
+                            <p class="stops">nonstop</p>
+                        </div>
+                        <div class="flight__item-info time">
+                            <p>2:26 pm</p>
+                            <p>4:15 pm</p>
+                        </div>
+                        <div class="destination">
+                            <p>atl</p>
+                            <div class="destination__item">
+                                <p>1h, <span>49M</span></p>
+                            </div>
+                            <p>iad</p>
+                        </div>
+                        <div class="flight__number">
+                            <p>ua 216 <span>(airbus a320)</span></p>
+                        </div>
+
+                        <div class="flight__details">
+                            <div class="details">
+                                <div class="details1">
+                                    <img src="img/arrow-down.svg" alt="" width="16">
+                                    <p>details</p>
+                                </div>
+                                <div class="details1">
+                                    <img src="img/arrow-down.svg" alt="" width="16">
+                                    <p>seats</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="details__text">
+                                    <p>104 kg <span>co<sub>2</sub></span></p>
+                                    <img src="img/question-circle-svgrepo-com.svg" alt="" width="20">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flight__select">
+                        <div class="flight__item flight-second-row" id="not_available">
+                            <div class="flight__item-text">
+                                <p>not available</p>
+                            </div>
+                        </div>
+                        <div class="flight__item flight-second-row" data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p>$262</p>
+                            </div>
+                            <div>
+                                <p>united economy</p>
+                                <p>(q)</p>
+                            </div>
+                        </div>
+                        <div class="flight__item flight-second-row" data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p>$312</p>
+                            </div>
+                            <div>
+                                <p>united economy</p>
+                                <p>(q)</p>
+                            </div>
+                        </div>
+                        <div class="flight__item flight-second-row" data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p>$358</p>
+                            </div>
+                            <div>
+                                <p>united economy</p>
+                                <p>(q)</p>
+                            </div>
+                        </div>
+                        <div class="flight__item flight-second-row" data-hover="Add to card">
+                            <div class="flight__item-text">
+                                <p>$436</p>
+                            </div>
+                            <div>
+                                <p>united first <span>(z)</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="copy">
+                <p>
+                    &#169; Design by <span>Ivan Taetu </span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="#">
+   <title>Document</title>
+</head>
+
+<body>
+
+
+   <header>
+      <h1>Welcome to the "MUG and HUG" cafe!</h1>
+   </header>
+
+   <main>
+      <form>
+         <div class="total-bill">
+            <label for="total" class="form-label">Please enter the total bill amount:</label>
+            <input class="input-total" type="number" id="total">
+         </div>
+         <div>
+            <p>Please select the service level:</p>
+            <div class="radio">
+               <label><input type="radio" id="outstanding" name="service" value="30" checked>Outstanding (30%)</label>
+               <label><input type="radio" id="good" name="service" value="20">Good (20%)</label>
+               <label><input type="radio" id="okish" name="service" value="15">OKish (15%)</label>
+               <label><input type="radio" id="bad" name="service" value="10">Bad (10%)</label>
+               <label><input type="radio" id="never" name="service" value="0">Never coming back (0%)</label>
+            </div>
+         </div>
+         <div class="people">
+            <label for="bill">Please select how many people are splitting the bill:</label>
+            <select id="bill">
+               <option value="1" selected>1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+            </select>
+         </div>
+
+         <button class="btn">Calculate</button>
+         <p>Each person ows: <span class="total-per-person"></span> Lei</p>
+      </form>
+   </main>
+
+
+   <script src="app.js"></script>
+
+</body>
+
+</html>

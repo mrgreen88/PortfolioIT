@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Document</title>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="js/modal.js" defer></script>
+</head>
+<body>
+
+   <div class="page">
+
+      <header class="header">
+
+         <div class="header__left">
+            <nav class="nav">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a class="nav__link" href="index.html">Principala</a>
+                  </li>
+                  <li class="nav__item">
+                     <a class="nav__link  has-subnav" href="#">Articol</a>
+
+                     <ul class="subnav">
+                        <li>
+                           <a class="subnav__link" href="firstPost.html">Crearea site-urilor</a>
+                        </li>
+                        <li>
+                           <a class="subnav__link" href="post.html">Internet-marketing</a>
+                        </li>
+                        <li>
+                           <a class="subnav__link" href="postVideo.html">Promovare video</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="nav__item">
+                     <a class="nav__link" href="text.html">Despre mine</a>
+                  </li>
+                  <li class="nav__item">
+                     <a class="nav__link" href="text.html">Reclama</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+
+         <div class="header__right">
+            <nav class="nav">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a class="nav__link" href="profile.html">Profil</a>
+                  </li>
+                  <li class="nav__item">
+                     <a class="nav__link" href="index.html">Ieșire</a>
+                  </li>
+               </ul>
+            </nav>
+            <form class="search" action="search.html" method="get">
+               <input class="search__input" type="text" placeholder="Cauta in blog"></form>
+         </div>
+
+      </header>
+
+      <aside class="sidebar">
+
+         <div class="sidebar__header">
+               <img src="img/sidebar-header.jpg" alt=""></div>
+
+            <div class="sidebar__content">
+               <div class="profile">
+                  <img class="profile__avatar" src="https://placebeard.it/100" alt="">
+                  <div class="profile__name">Tăetu Ivan</div>
+                  <div class="profile__prof">blog front-end developer</div>
+
+                  <ul class="social">
+                     <li class="social__item">
+                        <a class="social__link" href="https://www.instagram.com/" target="_blank">
+                        <img src="img/instagram.svg" alt="instagram"></a>
+                     </li>
+                     <li class="social__item">
+                        <a class="social__link" href="https://vk.com/" target="_blank">
+                        <img src="img/vk.svg" alt="vk"></a>
+                     </li>
+                     <li class="social__item">
+                        <a class="social__link" href="https://www.pinterest.com/" target="_blank">
+                        <img src="img/pinterest.svg" alt="pinterest"></a>
+                     </li>
+                  </ul>
+
+                  <div class="profile__text">
+                     <p>
+                           Lorem ipsum dolor sit amet consectetur adipisicing, elit. Soluta impedit sapiente debitis consequuntur ipsum velit quidem dolores quaerat iure quam sunt recusandae eveniet repellendus suscipit.
+                     </p>
+                  </div>
+
+               </div>
+                           <!-- /.profile  -->
+            </div>
+                        <!-- /.sidebar__content  -->
+
+            <div class="sidebar__footer">
+               <a class="btn  btn--red" href="works.html">Portfolio</a>
+               <button class="btn  btn--blue" type="button" data-modal="contact-modal">Scrie-mi</button>
+            </div>
+      </aside>
+                     <!-- /.aside  -->
+
+      <main class="main">
+
+         <div class="container">
+
+            <article class="post">
+                              <!-- Article -->
+
+               <div class="post__actions">
+                  <a href="index.html">înapoi la principală</a>
+                  <a href="#" data-modal="share-modal">
+                     distribuie
+                  <img class="post__actions-icon" src="img/share.svg" alt="distribuie"></a>
+               </div>
+
+               <div class="post__header  post__header--open">
+                  <h1 class="post__title  post__title--mb0">FrontEnd conferința 2021</h1>
+               </div>
+
+               <div class="post__content">
+                  <div class="post__text">
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt consequuntur nobis necessitatibus nihil modi? Nobis cupiditate totam, impedit dicta architecto quisquam itaque est illum beatae, expedita doloribus, quae iure atque.</p>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt consequuntur nobis necessitatibus nihil modi? Nobis cupiditate totam, impedit dicta architecto quisquam itaque est illum beatae, expedita doloribus, quae iure atque.</p>
+                     <p><img src="img/image.jpg" alt=""></p>
+                     <p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Et, accusantium esse deserunt ut eaque. Est, cum. Ex enim labore, nihil provident officiis excepturi laudantium iusto mollitia aperiam consequatur earum. Quia similique, magni voluptates aliquam quae vel suscipit labore facilis possimus, sapiente quidem temporibus incidunt recusandae aliquid! Porro iure debitis neque.</p>
+                     <p><img src="img/html-background-coding.jpg" alt=""></p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Laudantium tenetur, magnam animi officia similique eos enim obcaecati facere, nesciunt, esse, ab. Nostrum, aut voluptatibus nisi dolores. Eos exercitationem voluptas neque vel numquam perferendis ducimus odio quidem fugit nemo, tempora ratione accusantium fuga nesciunt hic repellendus. Soluta corrupti libero quaerat eum neque, magnam ex, ea culpa cumque non? Quaerat omnis quibusdam, nulla explicabo perferendis nam, amet eius mollitia. Voluptas laborum, consequuntur.</p>
+                  </div>
+
+               </div>  <!-- /Post content -->
+
+            </article> <!-- /Article -->
+
+             <div class="modal" id="contact-modal">
+                <div class="modal__content">
+
+                 <button class="modal__close" type="button">
+                     <img src="img/close.svg" alt="Inchide">
+                  </button>
+
+                    <form class="form  form-modal" action="" method="post">
+
+                     <div class="form__group  form__group--md">
+                        <input class="form__control" type="text" placeholder="Numele dvs.">
+                        <span class="form__line"></span>
+                     </div>
+
+                     <div class="form__group  form__group--md">
+                        <input class="form__control" type="Email" placeholder="Email">
+                        <span class="form__line"></span>
+                     </div>
+
+                     <div class="form__group  form__group--md">
+                        <textarea class="form__control  form__control--textarea" placeholder="Mesajul dvs."></textarea>
+                        <span class="form__line"></span>
+                     </div>
+
+                     <div class="form__footer">
+                        <div class="form__group  form__group--md">
+                           <button class="btn  btn--blue  btn--rounded  btn--sm" type="submit">Trimite</button>
+                        </div>
+                     </div>
+
+                  </form>
+
+                <ul class="modal__footer">
+                    <li>email: <a href="mailto:info@mywebsite.com">info@mywebsite.com</a></li>
+                    <li>tel: <a href="tel:+37322111111">+373-22-111-111</a></li>
+                 </ul>
+
+               </div>
+            </div>
+             
+             <div class="modal" id="share-modal">
+                  <div class="modal__content  modal--bottom">
+
+                    <button class="modal__close" type="button">
+                        <img src="img/close.svg" alt="Inchide">
+                     </button>
+
+                     <ul class="social">
+
+                        <li class="social__item">
+                           <a class="social__link" href="https://www.facebook.com/" target="_blank">
+                              <img src="img/share/facebook.svg">
+                           </a>
+                        </li>
+
+                        <li class="social__item">
+                           <a class="social__link" href="https://www.twitter.com/" target="_blank">
+                              <img src="img/share/twitter.svg">
+                           </a>
+                        </li>
+
+                        <li class="social__item">
+                           <a class="social__link" href="https://www.vk.com/" target="_blank">
+                              <img src="img/share/vk.svg">
+                           </a>
+                        </li>
+
+                         <li class="social__item">
+                           <a class="social__link" href="https://www.pinterest.com/" target="_blank">
+                              <img src="img/share/copy.svg">
+                           </a>
+                        </li>
+
+                     </ul>
+                  </div>
+               </div>
+
+
+         </div>
+
+      </main>
+
+   </div>
+
+</body>
+</html>
